@@ -18,7 +18,7 @@ export const CSSReset = createGlobalStyle`
   }
   body {
     display: flex;
-    flex: 1;
+    flex: 1;    
   }
   #__next {
     display: flex;
@@ -27,6 +27,7 @@ export const CSSReset = createGlobalStyle`
   /* Globals */
   button,
   a {
+    margin-bottom: 10px;
     text-decoration: none;
     opacity: 1;
     transition: .3s;

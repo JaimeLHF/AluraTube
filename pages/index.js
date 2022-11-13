@@ -96,7 +96,7 @@ function Timeline({searchValue, ...propriedades}) {
         // console.log(playlistName);
         // console.log(videos);
         return (
-          <section key={playlistName}>asd
+          <section key={playlistName}>
             <h2>{playlistName}</h2>
             <div>
               {videos.filter((video) => {
